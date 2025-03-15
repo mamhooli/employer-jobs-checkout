@@ -1,0 +1,75 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Gradle specific files
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle cache files
+.gradle/caches/
+.gradle/daemon/
+.gradle/wrapper/
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode settings
+.vscode/
+.vscode/*
+
+# Eclipse
+.metadata
+*.classpath
+*.project
+*.settings/
+
+# Mac system files
+.DS_Store
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.swo
+*.orig
+
+# Test reports
+/build/reports/
+test-results/
+test-output/
+test.exec
+jacoco.exec
+
+# Lint reports
+lint/reports/
+
+# Dependencies
+lib/
+
+# Logs
+logs/
+*.log
+

@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "customer": "SecondBite",
+      "type": "ThreeForTwo",
+      "product": "classic"
+    },
+    {
+      "customer": "Axil Coffee Roasters",
+      "type": "Discount",
+      "product": "standout",
+      "price": 299.99
+    },
+    {
+      "customer": "MYER",
+      "type": "Bundle",
+      "product": "standout",
+      "bundleSize": 5,
+      "payFor": 4
+    },
+    {
+      "customer": "MYER",
+      "type": "Discount",
+      "product": "premium",
+      "price": 389.99
+    },
+    {
+      "customer": "MYER",
+      "type": "FreeAd",
+      "triggerProduct": "classic",
+      "minQuantity": 3,
+      "bonusProduct": "standout"
+    },
+    {
+      "customer": "MYER",
+      "type": "PercentageOff",
+      "threshold": 1000,
+      "discount": 20
+    }
+  ]
+}
